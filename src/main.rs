@@ -1,5 +1,3 @@
-use bdk_api;
-
 fn setup_log() {
     let def_env = env_logger::Env::default().filter_or(env_logger::DEFAULT_FILTER_ENV, "debug");
     env_logger::init_from_env(def_env);
